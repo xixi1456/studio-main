@@ -1,0 +1,70 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Mona Sans";
+  font-weight: 200 900;
+  font-display: block;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  src: url("../fonts//Mona-Sans.var.woff2");
+}
+
+@keyframes question-drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes question-drift-reverse {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.question-barrage-track {
+  animation: question-drift 28s linear infinite;
+}
+
+.question-barrage-track-reverse {
+  animation-name: question-drift-reverse;
+  animation-duration: 34s;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* 固定导航栏高度补偿，锚点跳转不会被挡住 */
+    scroll-padding-top: 6rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background-color: #ff4d2e;
+    color: #0a0a0a;
+  }
+
+  /* 深色主题下的滚动条 */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 9999px;
+    border: 3px solid #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    .question-barrage-track {
+      animation: none;
+    }
+  }
+}
