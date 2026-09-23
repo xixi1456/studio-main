@@ -43,9 +43,14 @@ const Team = ({ showHeading = true }) => {
 
         {showHeading && (
           <FadeIn className="mt-8">
-            <Button href="/team" variant="secondary">
-              查看战队介绍
-            </Button>
+            <div className="flex flex-wrap gap-3">
+              <Button href="/team" variant="secondary">
+                查看战队介绍
+              </Button>
+              <Button href="/achievements" variant="secondary">
+                查看战队成果
+              </Button>
+            </div>
           </FadeIn>
         )}
       </Container>

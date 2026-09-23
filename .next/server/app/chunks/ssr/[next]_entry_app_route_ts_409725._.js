@@ -1,0 +1,10 @@
+Error.stackTraceLimit = 100;
+global.self = global;
+require("./_d7378b._.js");
+require("./[next]_polyfill_app-polyfills_ts_83ede4._.js");
+require("./[next]_internal_nodejs-proxy-handler_ts_4426f3._.js");
+require("./[next]_entry_app_route_ts_70d446._.js");
+require("./[turbopack-node]_ipc_index_ts_2e3891._.js");
+require("./[turbopack-node]_compiled_stacktrace-parser_index_2b532c.js");
+require("./[next]_entry_app_route_ts_1c58cf._.js");
+require("./[next]_entry_app_route_ts_edf33d._.js");

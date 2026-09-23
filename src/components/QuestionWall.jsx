@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import SectionHeading from "./SectionHeading";
+import { getSupabaseBrowser } from "@/lib/questions/supabase-browser";
 
 const SCRIPT_PATHS = [
   "/emotion-ball/js/rings.js",
@@ -12,7 +13,6 @@ const SCRIPT_PATHS = [
   "/emotion-ball/js/engine.js",
 ];
 
-const MAX_USER_QUESTIONS = 100;
 let sdkPromise;
 
 function loadEmotionBall() {
@@ -31,10 +31,7 @@ function loadEmotionBall() {
               `script[data-emotion-ball="${src}"]`
             );
             if (existing) {
-              if (existing.dataset.loaded === "true") {
-                resolve();
-                return;
-              }
+              if (existing.dataset.loaded === "true") return resolve();
               existing.addEventListener("load", resolve, { once: true });
               existing.addEventListener("error", reject, { once: true });
               return;
@@ -58,7 +55,6 @@ function loadEmotionBall() {
   return sdkPromise;
 }
 
-// Examples are displayed for context only and never enter the draw pool.
 const exampleMessages = [
   "第一次来，想知道加入战队要准备什么？",
   "机械组平时会做哪些真实项目？",
@@ -99,14 +95,16 @@ const QuestionWall = () => {
   const [userQuestions, setUserQuestions] = useState([]);
   const [question, setQuestion] = useState("");
   const [affinity, setAffinity] = useState(3);
-  const [drawnQuestion, setDrawnQuestion] = useState("");
   const [notice, setNotice] = useState("");
+  const [noticeKind, setNoticeKind] = useState("info");
+  const [submitting, setSubmitting] = useState(false);
   const [sdkError, setSdkError] = useState(false);
+  const [serviceUnavailable, setServiceUnavailable] = useState(false);
 
   affinityRef.current = affinity;
 
   const visibleMessages = useMemo(
-    () => [...exampleMessages, ...userQuestions.slice(-19)],
+    () => [...exampleMessages, ...userQuestions.slice(0, 19)],
     [userQuestions]
   );
 
@@ -164,39 +162,100 @@ const QuestionWall = () => {
   }, [affinity]);
 
   useEffect(() => {
+    let cancelled = false;
+    const refreshQuestions = () =>
+      fetch("/api/questions", { cache: "no-store" })
+      .then(async (response) => {
+        const body = await response.json();
+        if (!response.ok) throw new Error(body.error || "暂时无法加载问题");
+        if (!cancelled) {
+          setUserQuestions((items) => {
+            const latestById = new Map(items.map((item) => [item.id, item]));
+            for (const item of body.questions || []) latestById.set(item.id, item);
+            return [...latestById.values()]
+              .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+              .slice(0, 19);
+          });
+        }
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          setServiceUnavailable(true);
+          setNotice(error.message || "问题墙暂时不可用");
+          setNoticeKind("error");
+        }
+      });
+    refreshQuestions();
+
+    const supabase = getSupabaseBrowser();
+    const channel = supabase
+      ?.channel("public-question-wall")
+      .on(
+        "postgres_changes",
+        { event: "INSERT", schema: "public", table: "questions" },
+        ({ new: row }) =>
+          setUserQuestions((items) =>
+            [row, ...items.filter((item) => item.id !== row.id)].slice(0, 19)
+          )
+      )
+      .on(
+        "postgres_changes",
+        { event: "DELETE", schema: "public", table: "questions" },
+        ({ old: row }) =>
+          setUserQuestions((items) => items.filter((item) => item.id !== row.id))
+      )
+      .subscribe((status) => {
+        if (status === "SUBSCRIBED") refreshQuestions();
+      });
+
+    return () => {
+      cancelled = true;
+      if (channel) supabase.removeChannel(channel);
+    };
+  }, []);
+
+  useEffect(() => {
     const timer = window.setInterval(() => {
       setAffinity((value) => Math.max(0, value - 1));
     }, 8000);
     return () => window.clearInterval(timer);
   }, []);
 
-  const submitQuestion = (event) => {
+  const submitQuestion = async (event) => {
     event.preventDefault();
     const text = question.trim();
-    if (!text) return;
-    if (userQuestions.length >= MAX_USER_QUESTIONS) {
-      setNotice(`本次最多收集 ${MAX_USER_QUESTIONS} 个问题`);
-      return;
+    if (!text || submitting || serviceUnavailable) return;
+
+    setSubmitting(true);
+    setNotice("");
+    try {
+      const response = await fetch("/api/questions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error || "提交失败，请稍后重试");
+
+      setUserQuestions((items) =>
+        [body.question, ...items.filter((item) => item.id !== body.question.id)].slice(
+          0,
+          19
+        )
+      );
+      setQuestion("");
+      setNotice("问题已送达，谢谢你的提问。 ");
+      setNoticeKind("success");
+      setAffinity((value) => Math.min(15, value + 1));
+    } catch (error) {
+      setNotice(error.message || "提交失败，请稍后重试");
+      setNoticeKind("error");
+    } finally {
+      setSubmitting(false);
     }
-
-    setUserQuestions((items) => [
-      ...items,
-      { id: `${Date.now()}-${items.length}`, text },
-    ]);
-    setQuestion("");
-    setNotice("");
-    setAffinity((value) => Math.min(15, value + 1));
   };
 
-  const drawQuestion = () => {
-    if (!userQuestions.length) return;
-    const picked = userQuestions[Math.floor(Math.random() * userQuestions.length)];
-    setDrawnQuestion(picked.text);
-    setNotice("");
-    engineRef.current?.bounce?.();
-  };
-
-  const inputDisabled = userQuestions.length >= MAX_USER_QUESTIONS;
+  const inputDisabled = submitting || serviceUnavailable;
 
   return (
     <section
@@ -279,7 +338,7 @@ const QuestionWall = () => {
                   onChange={(event) => setQuestion(event.target.value)}
                   maxLength={100}
                   disabled={inputDisabled}
-                  placeholder={inputDisabled ? "本次问题已收集完毕" : "留下一个问题，和我们打个招呼"}
+                  placeholder={serviceUnavailable ? "问题墙暂不可用" : "留下一个问题，和我们打个招呼"}
                   className="min-w-0 flex-1 rounded-full border border-white/15 bg-ink/80 px-5 py-3 text-sm text-white outline-none transition placeholder:text-neutral-600 focus:border-accent disabled:cursor-not-allowed disabled:opacity-50"
                 />
                 <button
@@ -287,36 +346,25 @@ const QuestionWall = () => {
                   disabled={!question.trim() || inputDisabled}
                   className="rounded-full bg-accent px-5 py-3 text-sm font-semibold text-ink transition hover:bg-accent-soft disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                  发射问题
+                  {submitting ? "发送中…" : "发送问题"}
                 </button>
               </form>
 
-              <div className="mt-3 flex flex-col items-center justify-center gap-3 sm:flex-row">
-                <button
-                  type="button"
-                  onClick={drawQuestion}
-                  disabled={!userQuestions.length}
-                  className="rounded-full border border-accent/60 px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
-                >
-                  抽一个问题
-                </button>
-                <span className="text-xs text-neutral-600">
-                  已加入 {userQuestions.length}/{MAX_USER_QUESTIONS}
-                </span>
+              <div className="mt-3 flex items-center justify-center gap-2 text-xs text-neutral-600">
+                <span>问题实时同步</span>
+                <span aria-hidden="true">·</span>
+                <span>匿名提交</span>
               </div>
-
-              {drawnQuestion && (
-                <div
-                  className="mt-5 rounded-2xl border border-accent/40 bg-accent/[0.08] px-5 py-4 text-left"
-                  aria-live="polite"
+              {notice && (
+                <p
+                  className={`mt-3 text-xs ${
+                    noticeKind === "error" ? "text-red-300" : "text-accent"
+                  }`}
+                  role="status"
                 >
-                  <p className="text-[0.65rem] uppercase tracking-[0.18em] text-accent">
-                    抽到的问题
-                  </p>
-                  <p className="mt-2 text-sm leading-relaxed text-white">{drawnQuestion}</p>
-                </div>
+                  {notice}
+                </p>
               )}
-              {notice && <p className="mt-3 text-xs text-accent">{notice}</p>}
             </div>
           </div>
         </FadeIn>

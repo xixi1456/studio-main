@@ -3,18 +3,18 @@ exports.id = 178;
 exports.ids = [178];
 exports.modules = {
 
-/***/ 8292:
+/***/ 58292:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
-const { createProxy } = __webpack_require__(1363);
+const { createProxy } = __webpack_require__(61363);
 module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\client\\image-component.js");
  //# sourceMappingURL=image-component.js.map
 
 
 /***/ }),
 
-/***/ 474:
+/***/ 10474:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -27,9 +27,9 @@ Object.defineProperty(exports, "getImgProps", ({
         return getImgProps;
     }
 }));
-const _warnonce = __webpack_require__(1416);
-const _imageblursvg = __webpack_require__(3032);
-const _imageconfig = __webpack_require__(4169);
+const _warnonce = __webpack_require__(11416);
+const _imageblursvg = __webpack_require__(83032);
+const _imageconfig = __webpack_require__(44169);
 const VALID_LOADING_VALUES = (/* unused pure expression or super */ null && ([
     "lazy",
     "eager",
@@ -326,7 +326,7 @@ function getImgProps(param, _state) {
 
 /***/ }),
 
-/***/ 3032:
+/***/ 83032:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -354,7 +354,7 @@ function getImageBlurSvg(param) {
 
 /***/ }),
 
-/***/ 4169:
+/***/ 44169:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -423,7 +423,7 @@ const imageConfigDefault = {
 
 /***/ }),
 
-/***/ 7739:
+/***/ 67739:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -445,11 +445,11 @@ _export(exports, {
         return unstable_getImgProps;
     }
 });
-const _interop_require_default = __webpack_require__(3297);
-const _getimgprops = __webpack_require__(474);
-const _warnonce = __webpack_require__(1416);
-const _imagecomponent = __webpack_require__(8292);
-const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(2967));
+const _interop_require_default = __webpack_require__(73297);
+const _getimgprops = __webpack_require__(10474);
+const _warnonce = __webpack_require__(11416);
+const _imagecomponent = __webpack_require__(58292);
+const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(12967));
 const unstable_getImgProps = (imgProps)=>{
     (0, _warnonce.warnOnce)("Warning: unstable_getImgProps() is experimental and may change or be removed at any time. Use at your own risk.");
     const { props } = (0, _getimgprops.getImgProps)(imgProps, {
@@ -471,7 +471,7 @@ const _default = _imagecomponent.Image; //# sourceMappingURL=image-external.js.m
 
 /***/ }),
 
-/***/ 2967:
+/***/ 12967:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -497,7 +497,7 @@ const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
 
 /***/ }),
 
-/***/ 1416:
+/***/ 11416:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -516,11 +516,11 @@ if (false) {} //# sourceMappingURL=warn-once.js.map
 
 /***/ }),
 
-/***/ 4178:
+/***/ 14178:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-module.exports = __webpack_require__(7739);
+module.exports = __webpack_require__(67739);
 
 
 /***/ })

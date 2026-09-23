@@ -3,7 +3,7 @@ exports.id = 85;
 exports.ids = [85];
 exports.modules = {
 
-/***/ 4997:
+/***/ 54997:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -13,13 +13,13 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/index.mjs
-var value = __webpack_require__(6550);
+var value = __webpack_require__(86550);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-constant.mjs
-var use_constant = __webpack_require__(4349);
+var use_constant = __webpack_require__(34349);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/errors.mjs
-var errors = __webpack_require__(7279);
+var errors = __webpack_require__(47279);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/render/dom/utils/resolve-element.mjs
 
 
@@ -159,9 +159,9 @@ function resize(a, b) {
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/progress.mjs
-var progress = __webpack_require__(8976);
+var progress = __webpack_require__(98976);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/velocity-per-second.mjs
-var velocity_per_second = __webpack_require__(7429);
+var velocity_per_second = __webpack_require__(27429);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/render/dom/scroll/info.mjs
 
 
@@ -354,9 +354,9 @@ function resolveOffset(offset, containerLength, targetLength, targetInset) {
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/interpolate.mjs + 3 modules
-var interpolate = __webpack_require__(3028);
+var interpolate = __webpack_require__(23028);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/offsets/default.mjs + 1 modules
-var offsets_default = __webpack_require__(9076);
+var offsets_default = __webpack_require__(29076);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/render/dom/scroll/offsets/index.mjs
 
 
@@ -454,7 +454,7 @@ function createOnScrollHandler(element, onScroll, info, options = {}) {
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/frameloop/frame.mjs + 2 modules
-var frameloop_frame = __webpack_require__(9195);
+var frameloop_frame = __webpack_require__(89195);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/render/dom/scroll/track.mjs
 
 
@@ -542,7 +542,7 @@ function scrollInfo(onScroll, { container = document.documentElement, ...options
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs
-var use_isomorphic_effect = __webpack_require__(381);
+var use_isomorphic_effect = __webpack_require__(60381);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs
 
 
@@ -587,7 +587,7 @@ function useScroll({ container, target, layoutEffect = true, ...options } = {}) 
 
 /***/ }),
 
-/***/ 1591:
+/***/ 61591:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 
@@ -597,7 +597,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/interpolate.mjs + 3 modules
-var interpolate = __webpack_require__(3028);
+var interpolate = __webpack_require__(23028);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/utils/transform.mjs
 
 
@@ -622,13 +622,13 @@ function transform(...args) {
 
 
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/index.mjs
-var es_value = __webpack_require__(6550);
+var es_value = __webpack_require__(86550);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs
-var MotionConfigContext = __webpack_require__(5248);
+var MotionConfigContext = __webpack_require__(95248);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-constant.mjs
-var use_constant = __webpack_require__(4349);
+var use_constant = __webpack_require__(34349);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/value/use-motion-value.mjs
 
 
@@ -670,9 +670,9 @@ function useMotionValue(initial) {
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs
-var use_isomorphic_effect = __webpack_require__(381);
+var use_isomorphic_effect = __webpack_require__(60381);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/frameloop/frame.mjs + 2 modules
-var frameloop_frame = __webpack_require__(9195);
+var frameloop_frame = __webpack_require__(89195);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/value/use-combine-values.mjs
 
 

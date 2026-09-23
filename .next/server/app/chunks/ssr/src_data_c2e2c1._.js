@@ -915,47 +915,47 @@ const team = {
             alt: "team photo 17"
         },
         {
-            src: "/images/team/微信图片_20260421161650_52_9.jpg",
+            src: "/images/team/team-52.jpg",
             alt: "team photo 18"
         },
         {
-            src: "/images/team/微信图片_20260421161651_53_9.jpg",
+            src: "/images/team/team-53.jpg",
             alt: "team photo 19"
         },
         {
-            src: "/images/team/微信图片_20260421161653_54_9.jpg",
+            src: "/images/team/team-54.jpg",
             alt: "team photo 20"
         },
         {
-            src: "/images/team/微信图片_20260421161654_55_9.jpg",
+            src: "/images/team/team-55.jpg",
             alt: "team photo 21"
         },
         {
-            src: "/images/team/微信图片_20260421161654_56_9.jpg",
+            src: "/images/team/team-56.jpg",
             alt: "team photo 22"
         },
         {
-            src: "/images/team/微信图片_20260421161655_57_9.jpg",
+            src: "/images/team/team-57.jpg",
             alt: "team photo 23"
         },
         {
-            src: "/images/team/微信图片_20260421161656_58_9.jpg",
+            src: "/images/team/team-58.jpg",
             alt: "team photo 24"
         },
         {
-            src: "/images/team/微信图片_20260421161946_59_9.jpg",
+            src: "/images/team/team-59.jpg",
             alt: "team photo 25"
         },
         {
-            src: "/images/team/微信图片_20260421161948_60_9.jpg",
+            src: "/images/team/team-60.jpg",
             alt: "team photo 26"
         },
         {
-            src: "/images/team/微信图片_20260421161949_61_9.jpg",
+            src: "/images/team/team-61.jpg",
             alt: "team photo 27"
         },
         {
-            src: "/images/team/微信图片_20260421161950_62_9.jpg",
+            src: "/images/team/team-62.jpg",
             alt: "team photo 28"
         },
         {

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/admin/questions": {},
+    "/api/questions": {},
+    "/admin/questions": {},
+    "/achievements": {},
+    "/join": {},
+    "/projects": {},
+    "/training": {},
+    "/team": {}
+  }
+}

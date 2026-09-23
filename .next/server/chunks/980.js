@@ -3,7 +3,7 @@ exports.id = 980;
 exports.ids = [980];
 exports.modules = {
 
-/***/ 2271:
+/***/ 12271:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -17,7 +17,7 @@ Object.defineProperty(exports, "bailoutToClientRendering", ({
     }
 }));
 const _dynamicnossr = __webpack_require__(5070);
-const _staticgenerationasyncstorage = __webpack_require__(3539);
+const _staticgenerationasyncstorage = __webpack_require__(13539);
 function bailoutToClientRendering() {
     const staticGenerationStore = _staticgenerationasyncstorage.staticGenerationAsyncStorage.getStore();
     if (staticGenerationStore == null ? void 0 : staticGenerationStore.forceStatic) {
@@ -39,7 +39,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 4713:
+/***/ 84713:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -52,8 +52,8 @@ Object.defineProperty(exports, "clientHookInServerComponentError", ({
         return clientHookInServerComponentError;
     }
 }));
-const _interop_require_default = __webpack_require__(3297);
-const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(2947));
+const _interop_require_default = __webpack_require__(73297);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(62947));
 function clientHookInServerComponentError(hookName) {
     if (false) {}
 }
@@ -68,7 +68,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 7158:
+/***/ 67158:
 /***/ ((module, exports, __webpack_require__) => {
 
 // useLayoutSegments() // Only the segments for the current place. ['children', 'dashboard', 'children', 'integrations'] -> /dashboard/integrations (/dashboard/layout.js would get ['children', 'dashboard', 'children', 'integrations'])
@@ -118,14 +118,14 @@ _export(exports, {
         return _notfound.notFound;
     }
 });
-const _react = __webpack_require__(2947);
-const _approutercontext = __webpack_require__(6021);
-const _hooksclientcontext = __webpack_require__(4629);
-const _clienthookinservercomponenterror = __webpack_require__(4713);
-const _getsegmentvalue = __webpack_require__(5891);
-const _serverinsertedhtml = __webpack_require__(9107);
-const _redirect = __webpack_require__(5287);
-const _notfound = __webpack_require__(2241);
+const _react = __webpack_require__(62947);
+const _approutercontext = __webpack_require__(26021);
+const _hooksclientcontext = __webpack_require__(64629);
+const _clienthookinservercomponenterror = __webpack_require__(84713);
+const _getsegmentvalue = __webpack_require__(85891);
+const _serverinsertedhtml = __webpack_require__(99107);
+const _redirect = __webpack_require__(75287);
+const _notfound = __webpack_require__(92241);
 const INTERNAL_URLSEARCHPARAMS_INSTANCE = Symbol("internal for urlsearchparams readonly");
 function readonlyURLSearchParamsError() {
     return new Error("ReadonlyURLSearchParams cannot be modified");
@@ -177,7 +177,7 @@ function useSearchParams() {
     ]);
     if (true) {
         // AsyncLocalStorage should not be included in the client bundle.
-        const { bailoutToClientRendering } = __webpack_require__(2271);
+        const { bailoutToClientRendering } = __webpack_require__(12271);
         if (bailoutToClientRendering()) {
             // TODO-APP: handle dynamic = 'force-static' here and on the client
             return readonlySearchParams;
@@ -278,7 +278,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 5891:
+/***/ 85891:
 /***/ ((module, exports) => {
 
 
@@ -305,22 +305,22 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 6021:
+/***/ 26021:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
-const { createProxy } = __webpack_require__(1363);
+const { createProxy } = __webpack_require__(61363);
 module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js");
  //# sourceMappingURL=app-router-context.js.map
 
 
 /***/ }),
 
-/***/ 4629:
+/***/ 64629:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
-const { createProxy } = __webpack_require__(1363);
+const { createProxy } = __webpack_require__(61363);
 module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js");
  //# sourceMappingURL=hooks-client-context.js.map
 
@@ -331,29 +331,29 @@ module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\shared
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
-const { createProxy } = __webpack_require__(1363);
+const { createProxy } = __webpack_require__(61363);
 module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js");
  //# sourceMappingURL=dynamic-no-ssr.js.map
 
 
 /***/ }),
 
-/***/ 9107:
+/***/ 99107:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__  cjs */ 
-const { createProxy } = __webpack_require__(1363);
+const { createProxy } = __webpack_require__(61363);
 module.exports = createProxy("D:\\战队网站\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js");
  //# sourceMappingURL=server-inserted-html.js.map
 
 
 /***/ }),
 
-/***/ 4980:
+/***/ 64980:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-module.exports = __webpack_require__(7158);
+module.exports = __webpack_require__(67158);
 
 
 /***/ })

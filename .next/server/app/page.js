@@ -4,7 +4,7 @@ exports.id = 931;
 exports.ids = [931];
 exports.modules = {
 
-/***/ 8038:
+/***/ 18038:
 /***/ ((module) => {
 
 "use strict";
@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 8704:
+/***/ 98704:
 /***/ ((module) => {
 
 "use strict";
@@ -20,7 +20,7 @@ module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
 
 /***/ }),
 
-/***/ 7897:
+/***/ 97897:
 /***/ ((module) => {
 
 "use strict";
@@ -28,7 +28,7 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 
 /***/ }),
 
-/***/ 6786:
+/***/ 56786:
 /***/ ((module) => {
 
 "use strict";
@@ -44,7 +44,7 @@ module.exports = require("next/dist/server/app-render/app-render");
 
 /***/ }),
 
-/***/ 1844:
+/***/ 41844:
 /***/ ((module) => {
 
 "use strict";
@@ -52,7 +52,7 @@ module.exports = require("next/dist/server/app-render/get-segment-param");
 
 /***/ }),
 
-/***/ 6624:
+/***/ 96624:
 /***/ ((module) => {
 
 "use strict";
@@ -60,7 +60,7 @@ module.exports = require("next/dist/server/future/helpers/interception-routes");
 
 /***/ }),
 
-/***/ 5281:
+/***/ 75281:
 /***/ ((module) => {
 
 "use strict";
@@ -68,7 +68,7 @@ module.exports = require("next/dist/server/future/route-modules/route-module");
 
 /***/ }),
 
-/***/ 7085:
+/***/ 57085:
 /***/ ((module) => {
 
 "use strict";
@@ -84,7 +84,7 @@ module.exports = require("next/dist/shared/lib/get-img-props");
 
 /***/ }),
 
-/***/ 199:
+/***/ 20199:
 /***/ ((module) => {
 
 "use strict";
@@ -92,7 +92,7 @@ module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
 
-/***/ 6864:
+/***/ 66864:
 /***/ ((module) => {
 
 "use strict";
@@ -100,7 +100,7 @@ module.exports = require("next/dist/shared/lib/head");
 
 /***/ }),
 
-/***/ 9569:
+/***/ 39569:
 /***/ ((module) => {
 
 "use strict";
@@ -108,7 +108,7 @@ module.exports = require("next/dist/shared/lib/hooks-client-context");
 
 /***/ }),
 
-/***/ 2210:
+/***/ 52210:
 /***/ ((module) => {
 
 "use strict";
@@ -116,7 +116,7 @@ module.exports = require("next/dist/shared/lib/image-config");
 
 /***/ }),
 
-/***/ 5359:
+/***/ 35359:
 /***/ ((module) => {
 
 "use strict";
@@ -124,7 +124,7 @@ module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
 
-/***/ 7160:
+/***/ 17160:
 /***/ ((module) => {
 
 "use strict";
@@ -132,7 +132,7 @@ module.exports = require("next/dist/shared/lib/router-context");
 
 /***/ }),
 
-/***/ 893:
+/***/ 30893:
 /***/ ((module) => {
 
 "use strict";
@@ -140,7 +140,7 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
-/***/ 2336:
+/***/ 12336:
 /***/ ((module) => {
 
 "use strict";
@@ -148,7 +148,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url");
 
 /***/ }),
 
-/***/ 7887:
+/***/ 17887:
 /***/ ((module) => {
 
 "use strict";
@@ -156,7 +156,7 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 /***/ }),
 
-/***/ 8735:
+/***/ 98735:
 /***/ ((module) => {
 
 "use strict";
@@ -164,7 +164,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 
 /***/ }),
 
-/***/ 120:
+/***/ 60120:
 /***/ ((module) => {
 
 "use strict";
@@ -172,7 +172,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
-/***/ 8231:
+/***/ 68231:
 /***/ ((module) => {
 
 "use strict";
@@ -180,7 +180,7 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path");
 
 /***/ }),
 
-/***/ 4614:
+/***/ 54614:
 /***/ ((module) => {
 
 "use strict";
@@ -188,7 +188,7 @@ module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix");
 
 /***/ }),
 
-/***/ 3750:
+/***/ 53750:
 /***/ ((module) => {
 
 "use strict";
@@ -196,7 +196,7 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
-/***/ 982:
+/***/ 70982:
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +204,7 @@ module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
 
 /***/ }),
 
-/***/ 9618:
+/***/ 79618:
 /***/ ((module) => {
 
 "use strict";
@@ -212,7 +212,7 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 /***/ }),
 
-/***/ 8423:
+/***/ 78423:
 /***/ ((module) => {
 
 "use strict";
@@ -220,7 +220,7 @@ module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
-/***/ 8658:
+/***/ 98658:
 /***/ ((module) => {
 
 "use strict";
@@ -228,7 +228,55 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 1017:
+/***/ 14300:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ 6113:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ 82361:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ 13685:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ 95687:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ 41808:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ 71017:
 /***/ ((module) => {
 
 "use strict";
@@ -236,7 +284,31 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 7310:
+/***/ 85477:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("punycode");
+
+/***/ }),
+
+/***/ 12781:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ 24404:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ 57310:
 /***/ ((module) => {
 
 "use strict";
@@ -244,7 +316,23 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3679:
+/***/ 73837:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ 59796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ 33679:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -259,10 +347,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7262);
 /* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9513);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1823);
+/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19513);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31823);
 /* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2502);
+/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12502);
 /* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if(["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]
@@ -278,9 +366,9 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6975)), "D:\\战队网站\\src\\app\\page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66975)), "D:\\战队网站\\src\\app\\page.jsx"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73881))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -289,10 +377,10 @@ const tree = {
         }]
       },
         {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3530)), "D:\\战队网站\\src\\app\\layout.jsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9653)), "D:\\战队网站\\src\\app\\not-found.jsx"],
+        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73530)), "D:\\战队网站\\src\\app\\layout.jsx"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 29653)), "D:\\战队网站\\src\\app\\not-found.jsx"],
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73881))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -333,19 +421,19 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 9128:
+/***/ 4611:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1833));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8616));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6806));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7500))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21833));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48616));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 87500));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 16806))
 
 /***/ }),
 
-/***/ 1833:
+/***/ 21833:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -358,23 +446,23 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 167 modules
-var motion = __webpack_require__(3234);
+var motion = __webpack_require__(13234);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/reduced-motion/use-reduced-motion.mjs
-var use_reduced_motion = __webpack_require__(1498);
+var use_reduced_motion = __webpack_require__(51498);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 12 modules
-var use_scroll = __webpack_require__(4997);
+var use_scroll = __webpack_require__(54997);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
-var use_transform = __webpack_require__(1591);
+var use_transform = __webpack_require__(61591);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.mjs
-var clsx = __webpack_require__(566);
+var clsx = __webpack_require__(10566);
 // EXTERNAL MODULE: ./src/components/Container.jsx
-var Container = __webpack_require__(6664);
+var Container = __webpack_require__(26664);
 // EXTERNAL MODULE: ./src/components/Button.jsx
-var Button = __webpack_require__(6444);
+var Button = __webpack_require__(76444);
 ;// CONCATENATED MODULE: ./src/components/GridBackdrop.jsx
 
 
@@ -745,7 +833,7 @@ var Button = __webpack_require__(6444);
 
 /***/ }),
 
-/***/ 7500:
+/***/ 87500:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -758,15 +846,15 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./src/components/Container.jsx
-var Container = __webpack_require__(6664);
+var Container = __webpack_require__(26664);
 // EXTERNAL MODULE: ./src/components/FadeIn.jsx
-var FadeIn = __webpack_require__(8616);
+var FadeIn = __webpack_require__(48616);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.mjs
-var clsx = __webpack_require__(566);
+var clsx = __webpack_require__(10566);
 ;// CONCATENATED MODULE: ./src/components/SectionHeading.jsx
 
 
@@ -821,8 +909,11 @@ var clsx = __webpack_require__(566);
 };
 /* harmony default export */ const components_SectionHeading = (SectionHeading);
 
+// EXTERNAL MODULE: ./src/lib/questions/supabase-browser.js
+var supabase_browser = __webpack_require__(41991);
 ;// CONCATENATED MODULE: ./src/components/QuestionWall.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -833,7 +924,6 @@ const SCRIPT_PATHS = [
     "/emotion-ball/js/ball.js",
     "/emotion-ball/js/engine.js"
 ];
-const MAX_USER_QUESTIONS = 100;
 let sdkPromise;
 function loadEmotionBall() {
     if (true) {
@@ -844,10 +934,7 @@ function loadEmotionBall() {
     sdkPromise = SCRIPT_PATHS.reduce((promise, src)=>promise.then(()=>new Promise((resolve, reject)=>{
                 const existing = document.querySelector(`script[data-emotion-ball="${src}"]`);
                 if (existing) {
-                    if (existing.dataset.loaded === "true") {
-                        resolve();
-                        return;
-                    }
+                    if (existing.dataset.loaded === "true") return resolve();
                     existing.addEventListener("load", resolve, {
                         once: true
                     });
@@ -869,7 +956,6 @@ function loadEmotionBall() {
             })), Promise.resolve()).then(()=>window.EmotionBall);
     return sdkPromise;
 }
-// Examples are displayed for context only and never enter the draw pool.
 const exampleMessages = [
     "第一次来，想知道加入战队要准备什么？",
     "机械组平时会做哪些真实项目？",
@@ -886,9 +972,9 @@ function getAffinityTier(affinity) {
 }
 function emotionForAffinity(affinity) {
     if (affinity >= 13) return "33";
-    if (affinity >= 10) return "19";
-    if (affinity >= 6) return "10";
-    if (affinity >= 3) return "02";
+    if (affinity >= 10) return "10";
+    if (affinity >= 6) return "19";
+    if (affinity >= 3) return "10";
     return "12";
 }
 function moodForAffinity(affinity) {
@@ -902,15 +988,19 @@ const QuestionWall = ()=>{
     const ballRef = (0,react_.useRef)(null);
     const engineRef = (0,react_.useRef)(null);
     const previousAffinityRef = (0,react_.useRef)(3);
+    const affinityRef = (0,react_.useRef)(3);
     const [userQuestions, setUserQuestions] = (0,react_.useState)([]);
     const [question, setQuestion] = (0,react_.useState)("");
     const [affinity, setAffinity] = (0,react_.useState)(3);
-    const [drawnQuestion, setDrawnQuestion] = (0,react_.useState)("");
     const [notice, setNotice] = (0,react_.useState)("");
+    const [noticeKind, setNoticeKind] = (0,react_.useState)("info");
+    const [submitting, setSubmitting] = (0,react_.useState)(false);
     const [sdkError, setSdkError] = (0,react_.useState)(false);
+    const [serviceUnavailable, setServiceUnavailable] = (0,react_.useState)(false);
+    affinityRef.current = affinity;
     const visibleMessages = (0,react_.useMemo)(()=>[
             ...exampleMessages,
-            ...userQuestions.slice(-19)
+            ...userQuestions.slice(0, 19)
         ], [
         userQuestions
     ]);
@@ -920,7 +1010,7 @@ const QuestionWall = ()=>{
             if (cancelled || !ballRef.current) return;
             ballRef.current.replaceChildren();
             const engine = EmotionBall.create(ballRef.current, {
-                emotion: emotionForAffinity(3),
+                emotion: emotionForAffinity(affinityRef.current),
                 fallbackId: "02",
                 autostart: true,
                 label: "提问区情绪球"
@@ -929,6 +1019,7 @@ const QuestionWall = ()=>{
                 throw new Error("EmotionBall did not mount its SVG renderer");
             }
             engineRef.current = engine;
+            previousAffinityRef.current = affinityRef.current;
         }).catch(()=>{
             if (!cancelled) setSdkError(true);
         });
@@ -962,38 +1053,76 @@ const QuestionWall = ()=>{
         affinity
     ]);
     (0,react_.useEffect)(()=>{
+        let cancelled = false;
+        fetch("/api/questions").then(async (response)=>{
+            const body = await response.json();
+            if (!response.ok) throw new Error(body.error || "暂时无法加载问题");
+            if (!cancelled) setUserQuestions(body.questions || []);
+        }).catch((error)=>{
+            if (!cancelled) {
+                setServiceUnavailable(true);
+                setNotice(error.message || "问题墙暂时不可用");
+                setNoticeKind("error");
+            }
+        });
+        const supabase = (0,supabase_browser/* getSupabaseBrowser */.M)();
+        const channel = supabase?.channel("public-question-wall").on("postgres_changes", {
+            event: "INSERT",
+            schema: "public",
+            table: "questions"
+        }, ({ new: row })=>setUserQuestions((items)=>[
+                    row,
+                    ...items.filter((item)=>item.id !== row.id)
+                ].slice(0, 19))).on("postgres_changes", {
+            event: "DELETE",
+            schema: "public",
+            table: "questions"
+        }, ({ old: row })=>setUserQuestions((items)=>items.filter((item)=>item.id !== row.id))).subscribe();
+        return ()=>{
+            cancelled = true;
+            if (channel) supabase.removeChannel(channel);
+        };
+    }, []);
+    (0,react_.useEffect)(()=>{
         const timer = window.setInterval(()=>{
             setAffinity((value)=>Math.max(0, value - 1));
         }, 8000);
         return ()=>window.clearInterval(timer);
     }, []);
-    const submitQuestion = (event)=>{
+    const submitQuestion = async (event)=>{
         event.preventDefault();
         const text = question.trim();
-        if (!text) return;
-        if (userQuestions.length >= MAX_USER_QUESTIONS) {
-            setNotice(`本次最多收集 ${MAX_USER_QUESTIONS} 个问题`);
-            return;
-        }
-        setUserQuestions((items)=>[
-                ...items,
-                {
-                    id: `${Date.now()}-${items.length}`,
+        if (!text || submitting || serviceUnavailable) return;
+        setSubmitting(true);
+        setNotice("");
+        try {
+            const response = await fetch("/api/questions", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
                     text
-                }
-            ]);
-        setQuestion("");
-        setNotice("");
-        setAffinity((value)=>Math.min(15, value + 1));
+                })
+            });
+            const body = await response.json();
+            if (!response.ok) throw new Error(body.error || "提交失败，请稍后重试");
+            setUserQuestions((items)=>[
+                    body.question,
+                    ...items.filter((item)=>item.id !== body.question.id)
+                ].slice(0, 19));
+            setQuestion("");
+            setNotice("问题已送达，谢谢你的提问。 ");
+            setNoticeKind("success");
+            setAffinity((value)=>Math.min(15, value + 1));
+        } catch (error) {
+            setNotice(error.message || "提交失败，请稍后重试");
+            setNoticeKind("error");
+        } finally{
+            setSubmitting(false);
+        }
     };
-    const drawQuestion = ()=>{
-        if (!userQuestions.length) return;
-        const picked = userQuestions[Math.floor(Math.random() * userQuestions.length)];
-        setDrawnQuestion(picked.text);
-        setNotice("");
-        engineRef.current?.bounce?.();
-    };
-    const inputDisabled = userQuestions.length >= MAX_USER_QUESTIONS;
+    const inputDisabled = submitting || serviceUnavailable;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         id: "questions",
         className: "relative overflow-hidden border-t border-white/10 py-24 sm:py-32",
@@ -1106,54 +1235,35 @@ const QuestionWall = ()=>{
                                                 onChange: (event)=>setQuestion(event.target.value),
                                                 maxLength: 100,
                                                 disabled: inputDisabled,
-                                                placeholder: inputDisabled ? "本次问题已收集完毕" : "留下一个问题，和我们打个招呼",
+                                                placeholder: serviceUnavailable ? "问题墙暂不可用" : "留下一个问题，和我们打个招呼",
                                                 className: "min-w-0 flex-1 rounded-full border border-white/15 bg-ink/80 px-5 py-3 text-sm text-white outline-none transition placeholder:text-neutral-600 focus:border-accent disabled:cursor-not-allowed disabled:opacity-50"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("button", {
                                                 type: "submit",
                                                 disabled: !question.trim() || inputDisabled,
                                                 className: "rounded-full bg-accent px-5 py-3 text-sm font-semibold text-ink transition hover:bg-accent-soft disabled:cursor-not-allowed disabled:opacity-40",
-                                                children: "发射问题"
+                                                children: submitting ? "发送中…" : "发送问题"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "mt-3 flex flex-col items-center justify-center gap-3 sm:flex-row",
+                                        className: "mt-3 flex items-center justify-center gap-2 text-xs text-neutral-600",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                type: "button",
-                                                onClick: drawQuestion,
-                                                disabled: !userQuestions.length,
-                                                className: "rounded-full border border-accent/60 px-5 py-2.5 text-sm font-semibold text-accent transition hover:bg-accent hover:text-ink disabled:cursor-not-allowed disabled:opacity-40",
-                                                children: "抽一个问题"
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "问题实时同步"
                                             }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                                className: "text-xs text-neutral-600",
-                                                children: [
-                                                    "已加入 ",
-                                                    userQuestions.length,
-                                                    "/",
-                                                    MAX_USER_QUESTIONS
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    drawnQuestion && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "mt-5 rounded-2xl border border-accent/40 bg-accent/[0.08] px-5 py-4 text-left",
-                                        "aria-live": "polite",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "text-[0.65rem] uppercase tracking-[0.18em] text-accent",
-                                                children: "抽到的问题"
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                "aria-hidden": "true",
+                                                children: "\xb7"
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                className: "mt-2 text-sm leading-relaxed text-white",
-                                                children: drawnQuestion
+                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                                children: "匿名提交"
                                             })
                                         ]
                                     }),
                                     notice && /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "mt-3 text-xs text-accent",
+                                        className: `mt-3 text-xs ${noticeKind === "error" ? "text-red-300" : "text-accent"}`,
+                                        role: "status",
                                         children: notice
                                     })
                                 ]
@@ -1170,7 +1280,29 @@ const QuestionWall = ()=>{
 
 /***/ }),
 
-/***/ 6975:
+/***/ 41991:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   M: () => (/* binding */ getSupabaseBrowser)
+/* harmony export */ });
+/* harmony import */ var _supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22730);
+/* harmony import */ var _supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0__);
+
+let client;
+function getSupabaseBrowser() {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    if (!url || !key) return null;
+    if (!client) client = (0,_supabase_supabase_js__WEBPACK_IMPORTED_MODULE_0__.createClient)(url, key);
+    return client;
+}
+
+
+/***/ }),
+
+/***/ 66975:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1183,9 +1315,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1363);
+var module_proxy = __webpack_require__(61363);
 ;// CONCATENATED MODULE: ./src/components/Hero.jsx
 
 const proxy = (0,module_proxy.createProxy)(String.raw`D:\战队网站\src\components\Hero.jsx`)
@@ -1200,19 +1332,19 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const Hero = (__default__);
 // EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(5124);
+var next_link = __webpack_require__(25124);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(4178);
+var next_image = __webpack_require__(14178);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./src/components/Container.jsx
-var Container = __webpack_require__(1392);
+var Container = __webpack_require__(41392);
 // EXTERNAL MODULE: ./src/components/FadeIn.jsx
-var FadeIn = __webpack_require__(5635);
+var FadeIn = __webpack_require__(55635);
 // EXTERNAL MODULE: ./src/components/SectionHeading.jsx
-var SectionHeading = __webpack_require__(3583);
+var SectionHeading = __webpack_require__(23583);
 // EXTERNAL MODULE: ./src/components/Button.jsx
-var Button = __webpack_require__(732);
+var Button = __webpack_require__(50732);
 ;// CONCATENATED MODULE: ./src/data/event.js
 /**
  * RoboMaster 赛事数据。
@@ -1557,7 +1689,7 @@ const About = ()=>{
 /* harmony default export */ const components_About = (About);
 
 // EXTERNAL MODULE: ./src/data/recruitment.js
-var recruitment = __webpack_require__(6721);
+var recruitment = __webpack_require__(96721);
 ;// CONCATENATED MODULE: ./src/components/TechStack.jsx
 
 
@@ -1767,9 +1899,9 @@ const QuestionWall_default_ = QuestionWall_proxy.default;
 
 /* harmony default export */ const QuestionWall = (QuestionWall_default_);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.mjs
-var clsx = __webpack_require__(5182);
+var clsx = __webpack_require__(95182);
 // EXTERNAL MODULE: ./src/data/team.js
-var team = __webpack_require__(2805);
+var team = __webpack_require__(52805);
 ;// CONCATENATED MODULE: ./src/components/Team.jsx
 
 
@@ -1822,10 +1954,20 @@ const Team = ({ showHeading = true })=>{
                     }),
                     showHeading && /*#__PURE__*/ jsx_runtime_.jsx(FadeIn/* default */.ZP, {
                         className: "mt-8",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(Button/* default */.Z, {
-                            href: "/team",
-                            variant: "secondary",
-                            children: "查看战队介绍"
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "flex flex-wrap gap-3",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx(Button/* default */.Z, {
+                                    href: "/team",
+                                    variant: "secondary",
+                                    children: "查看战队介绍"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(Button/* default */.Z, {
+                                    href: "/achievements",
+                                    variant: "secondary",
+                                    children: "查看战队成果"
+                                })
+                            ]
                         })
                     })
                 ]
@@ -1836,9 +1978,9 @@ const Team = ({ showHeading = true })=>{
 /* harmony default export */ const components_Team = (Team);
 
 // EXTERNAL MODULE: ./src/components/JoinCta.jsx + 1 modules
-var JoinCta = __webpack_require__(10);
+var JoinCta = __webpack_require__(40010);
 // EXTERNAL MODULE: ./src/data/site.js
-var site = __webpack_require__(8308);
+var site = __webpack_require__(18308);
 ;// CONCATENATED MODULE: ./src/app/page.jsx
 
 
@@ -1884,7 +2026,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,478,178,85,839,721,414,699,805,583], () => (__webpack_exec__(3679)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,478,178,730,85,839,721,414,699,805,583], () => (__webpack_exec__(33679)));
 module.exports = __webpack_exports__;
 
 })();

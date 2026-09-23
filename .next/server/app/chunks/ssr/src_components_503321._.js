@@ -937,11 +937,29 @@ const Team = ({ showHeading = true })=>{
                     }, this),
                     showHeading && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FadeIn$2e$jsx__$28$ecmascript$29$__["default"], {
                         className: "mt-8",
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$28$ecmascript$29$__["default"], {
-                            href: "/team",
-                            variant: "secondary",
-                            children: "查看战队介绍"
-                        }, void 0, false, {
+                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "flex flex-wrap gap-3",
+                            children: [
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$28$ecmascript$29$__["default"], {
+                                    href: "/team",
+                                    variant: "secondary",
+                                    children: "查看战队介绍"
+                                }, void 0, false, {
+                                    fileName: "<[project]/src/components/Team.jsx>",
+                                    lineNumber: 47,
+                                    columnNumber: 15
+                                }, this),
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Button$2e$jsx__$28$ecmascript$29$__["default"], {
+                                    href: "/achievements",
+                                    variant: "secondary",
+                                    children: "查看战队成果"
+                                }, void 0, false, {
+                                    fileName: "<[project]/src/components/Team.jsx>",
+                                    lineNumber: 50,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "<[project]/src/components/Team.jsx>",
                             lineNumber: 46,
                             columnNumber: 13
@@ -1785,9 +1803,63 @@ const chunks = [
     ]
   },
   {
+    "path": "_next/static/chunks/src_lib_questions_supabase-browser_06c2b0.js",
+    "included": [
+      "[project]/src/lib/questions/supabase-browser.js (ecmascript)"
+    ]
+  },
+  {
     "path": "_next/static/chunks/node_modules_clsx_dist_clsx_mjs_8bf540._.js",
     "included": [
       "[project]/node_modules/clsx/dist/clsx.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_node-fetch_browser_340ded.js",
+    "included": [
+      "[project]/node_modules/@supabase/node-fetch/browser.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_storage-js_dist_module_index_7fa9c3.js",
+    "included": [
+      "[project]/node_modules/@supabase/storage-js/dist/module/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_auth-js_dist_module_index_326a5a.js",
+    "included": [
+      "[project]/node_modules/@supabase/auth-js/dist/module/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_postgrest-js_dist_cjs_index_e50512.js",
+    "included": [
+      "[project]/node_modules/@supabase/postgrest-js/dist/cjs/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_postgrest-js_dist_esm_wrapper_mjs_eb1306._.js",
+    "included": [
+      "[project]/node_modules/@supabase/postgrest-js/dist/esm/wrapper.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_functions-js_dist_module_index_2e7dda.js",
+    "included": [
+      "[project]/node_modules/@supabase/functions-js/dist/module/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_realtime-js_dist_module_index_061e32.js",
+    "included": [
+      "[project]/node_modules/@supabase/realtime-js/dist/module/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@supabase_supabase-js_dist_module_index_4542ac.js",
+    "included": [
+      "[project]/node_modules/@supabase/supabase-js/dist/module/index.js (ecmascript)"
     ]
   },
   {
@@ -1819,6 +1891,12 @@ const chunks = [
     "included": [
       "[project]/node_modules/next/dist/compiled/react/index.js (ecmascript)",
       "[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_next_dist_compiled_buffer_index_de39cf.js",
+    "included": [
+      "[project]/node_modules/next/dist/compiled/buffer/index.js (ecmascript)"
     ]
   },
   {

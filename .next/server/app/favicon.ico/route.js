@@ -5,14 +5,14 @@ exports.id = 155;
 exports.ids = [155];
 exports.modules = {
 
-/***/ 4021:
+/***/ 14021:
 /***/ ((module) => {
 
 module.exports = import("next/dist/compiled/@vercel/og/index.node.js");;
 
 /***/ }),
 
-/***/ 2037:
+/***/ 22037:
 /***/ ((module) => {
 
 module.exports = require("os");
@@ -45,13 +45,13 @@ __webpack_require__.d(favicon_next_metadata_route_namespaceObject, {
 });
 
 // EXTERNAL MODULE: ./node_modules/next/dist/server/node-polyfill-headers.js
-var node_polyfill_headers = __webpack_require__(2394);
+var node_polyfill_headers = __webpack_require__(42394);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-modules/app-route/module.js
-var app_route_module = __webpack_require__(9692);
+var app_route_module = __webpack_require__(69692);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-kind.js
-var route_kind = __webpack_require__(9513);
+var route_kind = __webpack_require__(19513);
 // EXTERNAL MODULE: ./node_modules/next/server.js
-var server = __webpack_require__(514);
+var server = __webpack_require__(20514);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Ffavicon.ico%2Froute&isDynamic=0!./src/app/favicon.ico?__next_metadata_route__
 
 
@@ -111,7 +111,7 @@ const originalPathname = "/favicon.ico/route";
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,565,218], () => (__webpack_exec__(4528)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,565,501,514], () => (__webpack_exec__(4528)));
 module.exports = __webpack_exports__;
 
 })();

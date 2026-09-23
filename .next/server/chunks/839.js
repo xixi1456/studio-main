@@ -5,42 +5,42 @@ exports.modules = {
 /***/ 5917:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23))
 
 /***/ }),
 
 /***/ 2581:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8616))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48616))
 
 /***/ }),
 
-/***/ 5477:
+/***/ 15477:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4280))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84280))
 
 /***/ }),
 
-/***/ 6444:
+/***/ 76444:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1440);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11440);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(566);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10566);
 
 
 
@@ -98,16 +98,16 @@ const Button = ({ href, variant = "primary", size = "md", className, children, .
 
 /***/ }),
 
-/***/ 6664:
+/***/ 26664:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(566);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10566);
 
 
 const Container = ({ as: Component = "div", className, innerClassName, children })=>{
@@ -124,7 +124,7 @@ const Container = ({ as: Component = "div", className, innerClassName, children 
 
 /***/ }),
 
-/***/ 8616:
+/***/ 48616:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -133,12 +133,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   FadeInStagger: () => (/* binding */ FadeInStagger),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1498);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3234);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51498);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13234);
 /* __next_internal_client_entry_do_not_use__ FadeInStagger,default auto */ 
 
 
@@ -208,7 +208,7 @@ const FadeInStagger = ({ faster = false, onMount = false, ...props })=>{
 
 /***/ }),
 
-/***/ 4280:
+/***/ 84280:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -221,20 +221,20 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1440);
+var next_link = __webpack_require__(11440);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 // EXTERNAL MODULE: ./node_modules/next/navigation.js
-var navigation = __webpack_require__(7114);
+var navigation = __webpack_require__(57114);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.mjs
-var clsx = __webpack_require__(566);
+var clsx = __webpack_require__(10566);
 // EXTERNAL MODULE: ./src/components/Container.jsx
-var Container = __webpack_require__(6664);
+var Container = __webpack_require__(26664);
 // EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2451);
+var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/data/site.js
 /**
@@ -408,11 +408,11 @@ const Logo = ({ href, className, invert = false, showName = true })=>{
 /* harmony default export */ const components_Logo = (Logo);
 
 // EXTERNAL MODULE: ./src/components/Button.jsx
-var Button = __webpack_require__(6444);
+var Button = __webpack_require__(76444);
 // EXTERNAL MODULE: ./node_modules/react-icons/hi/index.esm.js
-var index_esm = __webpack_require__(2717);
+var index_esm = __webpack_require__(62717);
 // EXTERNAL MODULE: ./node_modules/react-icons/io/index.esm.js
-var io_index_esm = __webpack_require__(2772);
+var io_index_esm = __webpack_require__(12772);
 ;// CONCATENATED MODULE: ./src/components/Navbar.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -550,7 +550,7 @@ const Navbar = ()=>{
 /* harmony default export */ const components_Navbar = (Navbar);
 
 // EXTERNAL MODULE: ./src/components/FadeIn.jsx
-var FadeIn = __webpack_require__(8616);
+var FadeIn = __webpack_require__(48616);
 ;// CONCATENATED MODULE: ./src/components/Footer.jsx
 
 
@@ -722,7 +722,7 @@ const RootLayout = ({ children })=>{
 
 /***/ }),
 
-/***/ 3530:
+/***/ 73530:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -736,9 +736,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1363);
+var module_proxy = __webpack_require__(61363);
 ;// CONCATENATED MODULE: ./src/components/RootLayout.jsx
 
 const proxy = (0,module_proxy.createProxy)(String.raw`D:\战队网站\src\components\RootLayout.jsx`)
@@ -753,7 +753,7 @@ const __default__ = proxy.default;
 
 /* harmony default export */ const RootLayout = (__default__);
 // EXTERNAL MODULE: ./src/config/site.js
-var site = __webpack_require__(4042);
+var site = __webpack_require__(74042);
 // EXTERNAL MODULE: ./src/app/globals.css
 var globals = __webpack_require__(5023);
 ;// CONCATENATED MODULE: ./src/app/layout.jsx
@@ -778,7 +778,7 @@ function Layout({ children }) {
 
 /***/ }),
 
-/***/ 9653:
+/***/ 29653:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -786,14 +786,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1392);
-/* harmony import */ var _components_FadeIn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5635);
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(732);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5124);
+/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(41392);
+/* harmony import */ var _components_FadeIn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55635);
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(50732);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(25124);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _data_site__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8308);
+/* harmony import */ var _data_site__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(18308);
 
 
 
@@ -843,18 +843,18 @@ const NotFound = ()=>{
 
 /***/ }),
 
-/***/ 732:
+/***/ 50732:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5124);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(25124);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5182);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(95182);
 
 
 
@@ -912,16 +912,16 @@ const Button = ({ href, variant = "primary", size = "md", className, children, .
 
 /***/ }),
 
-/***/ 1392:
+/***/ 41392:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5182);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(95182);
 
 
 const Container = ({ as: Component = "div", className, innerClassName, children })=>{
@@ -938,7 +938,7 @@ const Container = ({ as: Component = "div", className, innerClassName, children 
 
 /***/ }),
 
-/***/ 5635:
+/***/ 55635:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -947,7 +947,7 @@ const Container = ({ as: Component = "div", className, innerClassName, children 
 /* harmony export */   o$: () => (/* binding */ e0)
 /* harmony export */ });
 /* unused harmony exports __esModule, $$typeof */
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(61363);
 
 const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\战队网站\src\components\FadeIn.jsx`)
 
@@ -965,14 +965,14 @@ const e0 = proxy["FadeInStagger"];
 
 /***/ }),
 
-/***/ 4042:
+/***/ 74042:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   t: () => (/* binding */ constructMetadata)
 /* harmony export */ });
-/* harmony import */ var _data_site__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8308);
+/* harmony import */ var _data_site__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18308);
 /** 站点 SEO / 社交分享配置 */ 
 function constructMetadata({ title = `${_data_site__WEBPACK_IMPORTED_MODULE_0__/* .site */ .l.name} · ${_data_site__WEBPACK_IMPORTED_MODULE_0__/* .site */ .l.nameCn}`, description = _data_site__WEBPACK_IMPORTED_MODULE_0__/* .site */ .l.description, image = "/images/og.png", icons = "/favicon.ico", noIndex = false } = {}) {
     return {
@@ -1012,7 +1012,7 @@ function constructMetadata({ title = `${_data_site__WEBPACK_IMPORTED_MODULE_0__/
 
 /***/ }),
 
-/***/ 8308:
+/***/ 18308:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1135,7 +1135,7 @@ function constructMetadata({ title = `${_data_site__WEBPACK_IMPORTED_MODULE_0__/
 
 /***/ }),
 
-/***/ 3881:
+/***/ 73881:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1143,7 +1143,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80085);
 /* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
   
 
